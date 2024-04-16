@@ -1,0 +1,215 @@
+.service-list-mobile-screen,
+.service-list-tablet-screen,
+.service-list-large-screen {
+    width: 100%;
+
+    .service-list-wrapper {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+
+        .service-list-card {
+            width: 100%;
+            border: 1px solid black;
+            text-align: center;
+            animation-name: IServiceCard;
+            animation-duration: 2s;
+
+            .sub-service-title {
+                font-size: 1.5vw;
+            }
+
+            .sub-service-and-price-class {
+                display: flex;
+                justify-content: center;
+
+                .sub-services-class {
+                    display: grid;
+                    gap: .5rem;
+
+                    .sub-category-li {
+                        list-style-type: none;
+                    }
+                }
+
+                .service-price-class {
+                    display: grid;
+
+                    .price-li {
+                        list-style-type: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .more-information-button-class {
+        width: 100%;
+        text-align: center;
+
+        .more-information-button {
+            width: 50%;
+            margin-top: 1rem;
+            padding: .5rem;
+            font-size: 1.2vw;
+            cursor: pointer;
+            background: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            transition: 400ms;
+        }
+
+        .more-information-button:hover {
+            background-color: lightgreen;
+            color: white;
+        }
+    }
+
+    .more-information-class {
+        width: 100%;
+        display: grid;
+        gap: .5rem;
+        text-align: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        .more-info-li {
+            font-size: 1.2vw;
+        }
+    }
+}
+
+.service-list-mobile-screen {
+    width: 100%;
+
+    .service-list-wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .service-list-card {
+            width: 100%;
+
+            .sub-service-title {
+                font-size: 4vw;
+            }
+
+            .sub-service-and-price-class {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+
+                .sub-services-class {
+                    width: 100%;
+                    text-align: left;
+
+                    .sub-category-li {
+                        font-size: 4vw;
+                    }
+                }
+
+                .service-price-class {
+                    width: 50%;
+
+                    .price-li {
+                        font-size: 4vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .more-information-button-class {
+        width: 100%;
+
+        .more-information-button {
+            width: 80%;
+
+            font-size: 4vw;
+        }
+    }
+
+    .more-information-class {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .more-info-li {
+            font-size: 4vw;
+        }
+    }
+}
+
+.service-list-tablet-screen {
+    width: 100%;
+
+    .service-list-wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .service-list-card {
+            width: 100%;
+
+            .sub-service-title {
+                font-size: 3vw;
+            }
+
+            .sub-service-and-price-class {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+
+                .sub-services-class {
+                    width: 100%;
+                    text-align: left;
+
+                    .sub-category-li {
+                        font-size: 3vw;
+                    }
+                }
+
+                .service-price-class {
+                    width: 50%;
+
+                    .price-li {
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .more-information-button-class {
+        width: 100%;
+
+        .more-information-button {
+            width: 80%;
+
+            font-size: 3vw;
+        }
+    }
+
+    .more-information-class {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .more-info-li {
+            font-size: 3vw;
+        }
+    }
+}
+
+@keyframes IServiceCard {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

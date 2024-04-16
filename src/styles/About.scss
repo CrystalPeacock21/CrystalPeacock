@@ -1,0 +1,165 @@
+.about-mobile-screen,
+.about-tablet-screen,
+.about-large-screen {
+    width: 100%;
+
+    .about-us-wrapper {
+        width: 100%;
+
+        .website-logo-and-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .website-logo-class {
+                width: 50%;
+
+                .website-image {
+                    max-width: 50%;
+                }
+            }
+
+            .social-media-class {
+                width: 50%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .social-media-links {
+                    display: grid;
+                    gap: .5rem;
+                    text-align: center;
+
+                    .about-us-icons,
+                    .about-us-icons-instagram,
+                    .about-us-icons-facebook {
+                        margin-left: auto;
+                        margin-right: auto;
+                        font-size: 3vw;
+                        color: black;
+                        border-radius: 50%;
+                        padding: .5rem;
+                    }
+
+                    .about-us-icons-instagram {
+                        background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+                    }
+
+                    .about-us-icons-facebook {
+                        color: blue;
+                        border: 1px solid black;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.about-mobile-screen {
+    width: 100%;
+
+    .about-us-wrapper {
+        width: 100%;
+        display: grid;
+
+        .website-logo-and-wrapper {
+            width: 100%;
+            display: grid;
+            gap: 1rem;
+
+            .website-logo-class {
+                width: 100%;
+                text-align: center;
+
+                .website-image {
+                    max-width: 40%;
+                }
+            }
+
+            .social-media-class {
+                width: 100%;
+                display: grid;
+                gap: 1rem;
+
+                .social-media-links {
+                    
+                    .about-us-icons,
+                    .about-us-icons-instagram,
+                    .about-us-icons-facebook {
+                        font-size: 7vw;
+                    }
+                   
+                    .instagram-span,
+                    .facebook-span,
+                    .phone-number-span {
+                        font-size: 4.5vw;
+                    }
+                }
+            }
+
+        }
+        .about-us-paragraph-class {
+            width: 100%;
+            text-align: left;
+
+            .about-us-paragraph {
+                font-size: 4.5vw;
+            }
+        }
+    }
+}
+.about-tablet-screen {
+    width: 100%;
+
+    .about-us-wrapper {
+        width: 100%;
+        display: grid;
+
+        .website-logo-and-wrapper {
+            width: 100%;
+            display: grid;
+            gap: 1rem;
+
+            .website-logo-class {
+                width: 100%;
+                text-align: center;
+
+                .website-image {
+                    max-width: 30%;
+                }
+            }
+
+            .social-media-class {
+                width: 100%;
+                display: grid;
+                gap: 1rem;
+
+                .social-media-links {
+                    
+                    .about-us-icons,
+                    .about-us-icons-instagram,
+                    .about-us-icons-facebook {
+                        font-size: 4vw;
+                    }
+                   
+                    .instagram-span,
+                    .facebook-span,
+                    .phone-number-span {
+                        font-size: 2.5vw;
+                    }
+                }
+            }
+
+        }
+        .about-us-paragraph-class {
+            width: 100%;
+            text-align: left;
+
+            .about-us-paragraph {
+                font-size: 2.5vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,338 @@
+.home-mobile-screen,
+.home-tablet-screen,
+.home-large-screen {
+    width: 100%;
+
+    .home-section-one-class {
+        width: 100%;
+        display: grid;
+        border-bottom: 1px solid black;
+        padding-bottom: 1rem;
+
+        .section-one-title {
+            text-align: center;
+            font-size: 2vw;
+        }
+
+        .services-and-location-class {
+            width: 100%;
+            text-align: center;
+            display: grid;
+            gap: 1rem;
+
+            .services-span {
+                font-size: 1.2vw;
+                font-weight: bold;
+
+            }
+
+            .services-class {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                gap: .5rem;
+
+                .services-card-class-0,
+                .services-card-class-1,
+                .services-card-class-2 {
+                    width: 50%;
+                    border: 1px solid black;
+                    padding: 1rem;
+                    border-radius: 5px;
+
+                    .services-icons {
+                        font-size: 3vw;
+                    }
+
+                    .service-paragraph {
+                        font-size: 1.2vw;
+                    }
+                }
+
+                .services-card-class-0 {
+                    animation-name: ICardOne;
+                    animation-duration: 2s;
+                }
+                .services-card-class-1 {
+                    animation-name: ICardTwo;
+                    animation-duration: 2s;
+                }
+                .services-card-class-2 {
+                    animation-name: ICardThree;
+                    animation-duration: 2s;
+                }
+            }
+
+            .more-services-span, 
+            .more-services-links {
+                font-size: 1.2vw;
+            }
+        }
+    }
+
+    .work-steps-class {
+        width: 100%;
+
+        .work-steps-header-title {
+            font-size: 2vw;
+            text-align: center;
+
+            animation-name: IStepTitle;
+            animation-duration: 2s;
+        }
+
+        .work-steps-wrapper {
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            .step-one-class,
+            .step-two-class,
+            .step-three-class {
+                width: 50%;
+                border: 1px solid black;
+                border-radius: 5px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 1rem;
+
+                .step-one-title,
+                .step-two-title,
+                .step-three-title {
+                    text-align: center;
+                    font-size: 1.2vw;
+                }
+
+                .work-steps-icons {
+                    font-size: 3vw;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .step-one-class {
+                animation-name: IStepOne;
+                animation-duration: 2s;
+            }
+
+            .step-two-class {
+                animation-name: IStepTwo;
+                animation-duration: 2s;
+                
+            }
+
+            .step-three-class {
+                animation-name: IStepThree;
+                animation-duration: 2s;
+            }
+
+        }
+    }
+}
+
+.home-mobile-screen {
+    width: 100%;
+    display: grid;
+
+    .home-section-one-class {
+        width: 100%;
+        
+        .section-one-title {
+            font-size: 3.5vw;
+        }
+
+        .services-and-location-class {
+            width: 100%;
+
+            .services-span {
+                font-size: 3vw;
+            }
+
+            .services-class {
+                width: 100%;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+
+                .services-card-class-0,
+                .services-card-class-1,
+                .services-card-class-2 {
+                    width: 80%;
+
+                    .services-icons {
+                        font-size: 7vw;
+                    }
+
+                    .service-paragraph {
+                        font-size: 4vw;
+                    }
+                }
+            }
+
+            .more-services-span {
+                font-size: 3.5vw;
+
+                .more-services-links {
+                    font-size: 3.5vw;
+                }
+            }
+        }
+    }
+
+    .work-steps-class {
+        width: 100%;
+
+        .work-steps-header-title {
+            font-size: 3.5vw;
+        }
+
+        .work-steps-wrapper {
+            width: 100%;
+
+            .step-one-class,
+            .step-two-class,
+            .step-three-class {
+                width: 70%;
+
+                .step-one-title,
+                .step-two-title,
+                .step-three-title {
+                    font-size: 3.5vw;
+                }
+
+                .work-steps-icons {
+                    font-size: 8vw;
+                }
+            }
+
+        }
+    }
+}
+.home-tablet-screen {
+    width: 100%;
+
+    .home-section-one-class {
+        width: 100%;
+        
+        .section-one-title {
+            font-size: 2.5vw;
+        }
+
+        .services-and-location-class {
+            width: 100%;
+
+            .services-span {
+                font-size: 2.5vw;
+            }
+
+            .services-class {
+                width: 100%;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+
+                .services-card-class-0,
+                .services-card-class-1,
+                .services-card-class-2 {
+                    width: 80%;
+
+                    .services-icons {
+                        font-size: 4vw;
+                    }
+
+                    .service-paragraph {
+                        font-size: 2.5vw;
+                    }
+                }
+            }
+
+            .more-services-span {
+                font-size: 2.5vw;
+
+                .more-services-links {
+                    font-size: 2.5vw;
+                }
+            }
+        }
+    }
+
+    .work-steps-class {
+        width: 100%;
+
+        .work-steps-header-title {
+            font-size: 2.5vw;
+        }
+
+        .work-steps-wrapper {
+            width: 100%;
+
+            .step-one-class,
+            .step-two-class,
+            .step-three-class {
+                width: 70%;
+
+                .step-one-title,
+                .step-two-title,
+                .step-three-title {
+                    font-size: 2.5vw;
+                }
+
+                .work-steps-icons {
+                    font-size: 5vw;
+                }
+            }
+
+        }
+    }
+}
+
+//Animations
+@keyframes IStepOne {
+    0% {
+        transform: translate(-800px);
+    }
+}
+@keyframes IStepTwo {
+    0% {
+        transform: translate(800px);
+    }
+}
+@keyframes IStepThree {
+    0% {
+        transform: translate(-800px);
+    }
+}
+
+@keyframes IStepTitle {
+    0% {
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes ICardOne {
+    0%{
+        transform: translate(-800px);
+    }
+}
+
+@keyframes ICardTwo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ICardThree {
+    0%{
+        transform: translate(800px);
+    }
+}

@@ -1,0 +1,337 @@
+.services-mobile-screen,
+.services-tablet-screen,
+.services-large-screen {
+    width: 100%;
+
+    .service-wrapper-class {
+        display: grid;
+        text-align: center;
+
+        .service-title {
+            font-size: 2vw;
+            animation-name: IServiceTitle;
+            animation-duration: 2s;
+        }
+
+        .office-home-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1rem;
+            align-items: center;
+            text-align: center;
+            border-bottom: 1px solid black;
+            padding-bottom: 1rem;
+
+            .office-cleaning-class,
+            .home-cleaning-class {
+                width: 25%;
+                border: 1px solid black;
+                border-radius: 5px;
+                padding: 1rem;
+
+                .card-home-image-class,
+                .card-office-image-class {
+                    
+                    .house-cleaning-image,
+                    .office-cleaning-image {
+                        max-width: 100%;
+                    }
+                }
+
+                .service-data-class,
+                .details-office-class {
+                    width: 100%;
+
+                    .details-class {
+                        width: 100%;
+                        text-align: center;
+
+                        .home-cleaning-title {
+                            font-size: 1.5vw;
+                        
+                        }
+
+                        .office-cleaning-title {
+                            font-size: 1.5vw;
+                        }
+
+                    }
+
+                    .details-button-class {
+                        width: 100%;
+
+                        .home-details-link,
+                        .office-details-link{
+                            width: 100%;
+                            font-size: 1.2vw;
+                            text-decoration: none;
+                            color: black;
+                            border: 1px solid black;
+                            padding: .5rem;
+                        }
+
+                    }
+                }
+            }
+
+            .office-cleaning-class {
+                animation-name: IHomeCleaning;
+                animation-duration: 2s;
+            }
+
+            .home-cleaning-class {
+                animation-name: IOfficeCleaning;
+                animation-duration: 2s;
+            }
+        }
+
+        .avaiable-services-class {
+            width: 100%;
+
+            .avaiable-services-title {
+                font-size: 2vw;
+                animation-name: IServicesListTitle;
+                animation-duration: 2s;
+            }
+
+            .services-wrapper-class {
+                width: 100%;
+                display: grid;
+                gap: 1rem;
+                grid-template-columns: repeat(2, 1fr);
+                
+                .service-card-class {
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 1px solid black;
+                    padding: 1rem;
+                    animation-name: IServicesList;
+                    animation-duration: 2s;
+
+                    .service-title-span {
+                        font-size: 1.2vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.services-mobile-screen {
+    width: 100%;
+
+    .service-wrapper-class {
+        width: 100%;
+
+        .service-title {
+            width: 80%;
+            font-size: 5vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .office-home-wrapper {
+            width: 100%;
+            display: grid;
+            justify-items: center;
+            gap: 1rem;
+
+            .home-cleaning-class,
+            .office-cleaning-class {
+                width: 80%;
+
+                .card-home-image-class,
+                .card-office-image-class {
+                    .house-cleaning-image,
+                    .office-cleaning-image {
+                        max-width: 100%;
+                    }
+                }
+
+                .service-data-class,
+                .details-office-class {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.services-mobile-screen {
+    width: 100%;
+
+    .service-wrapper-class {
+        width: 100%;
+
+        .service-title {
+            width: 100%;
+            font-size: 5vw;
+        }
+
+        .office-home-wrapper {
+            width: 100%;
+            display: grid;
+
+            .home-cleaning-class,
+            .office-cleaning-class {
+                width: 80%;
+
+                .service-data-class,
+                .details-office-class {
+                    width: 100%;
+
+                    .details-class,
+                    .details-office-class {
+
+                        .home-cleaning-title,
+                        .office-cleaning-title {
+                            font-size: 4vw;
+                        }
+                    }
+
+                    .details-button-class {
+                        
+                        .office-details-link,
+                        .home-details-link {
+                            width: 100%;
+                            font-size: 3vw;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .avaiable-services-class {
+            width: 100%;
+
+            .avaiable-services-title {
+                font-size: 4.5vw;
+            }
+
+            .services-wrapper-class {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                
+                .service-card-class {
+                    
+
+                    .service-title-span {
+                        font-size: 4vw;
+                    }
+                }
+            }
+        }
+    }
+}
+.services-tablet-screen {
+    width: 100%;
+
+    .service-wrapper-class {
+        width: 100%;
+
+        .service-title {
+            width: 100%;
+            font-size: 3vw;
+        }
+
+        .office-home-wrapper {
+            width: 100%;
+            display: grid;
+            justify-items: center;
+            gap: 1rem;
+
+            .home-cleaning-class,
+            .office-cleaning-class {
+                width: 80%;
+
+                .service-data-class,
+                .details-office-class {
+                    width: 100%;
+
+                    .details-class,
+                    .details-office-class {
+
+                        .home-cleaning-title,
+                        .office-cleaning-title {
+                            font-size: 3vw;
+                        }
+                    }
+
+                    .details-button-class {
+                        
+                        .office-details-link,
+                        .home-details-link {
+                            width: 100%;
+                            font-size: 2.5vw;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .avaiable-services-class {
+            width: 100%;
+
+            .avaiable-services-title {
+                font-size: 3.5vw;
+            }
+
+            .services-wrapper-class {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                
+                .service-card-class {
+
+                    .service-title-span {
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Animations 
+@keyframes IServiceTitle {
+    0% {
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes IServicesListTitle {
+    0% {
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes IHomeCleaning {
+    0%{
+        transform: translate(800px);
+    }
+}
+@keyframes IOfficeCleaning {
+    0%{
+        transform: translate(-800px);
+    }
+}
+
+@keyframes IServicesList {
+    0% {
+        transform: translateY(400px);
+    }
+}

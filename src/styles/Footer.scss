@@ -1,0 +1,115 @@
+.footer-mobile-screen,
+.footer-tablet-screen,
+.footer-large-screen {
+    width: 100%;
+    border-top: 1px solid black;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .services-list-class {
+       width: 100%;
+        
+        .service-title {
+            text-align: center;
+            font-size: 2vw;
+        }
+
+        .service-ul {
+            width: 100%;
+            display: grid;
+            gap: .5rem;
+            justify-content: center;
+
+            .list-service {
+                font-size: 1.2vw;
+                list-style-type: none;
+            }
+        }
+    }
+
+    .contacts-class {
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        text-align: center;
+
+        .contact-title {
+            font-size: 2vw;
+        }
+
+        .phone-number-span {
+            font-size: 1.2vw;
+        }
+    }
+}
+
+.footer-mobile-screen {
+    width: 100%;
+    display: grid;
+
+    .services-list-class {
+        width: 100%;
+
+        .service-title {
+            font-size: 5vw;
+        }
+
+        .service-ul {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+
+            .list-service {
+                font-size: 3.5vw;
+            }
+        }
+    }
+
+    .contacts-class {
+        width: 100%;
+
+        .contact-title {
+            font-size: 5vw;
+        }
+
+        .phone-number-span {
+            font-size: 4vw;
+        }
+    }
+}
+
+.footer-tablet-screen {
+    width: 100%;
+
+    .services-list-class {
+        width: 100%;
+
+        .service-title {
+            font-size: 3vw;
+        }
+
+        .service-ul {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+
+            .list-service {
+                font-size: 2vw;
+            }
+        }
+    }
+
+    .contacts-class {
+        width: 100%;
+
+        .contact-title {
+            font-size: 3vw;
+        }
+
+        .phone-number-span {
+            font-size: 2.5vw;
+        }
+    }
+}
