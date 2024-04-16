@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import useScreenSize from '../../customHook/useScreenSize';
-import { assignRootClassName, getPartOfAvaiableServices, getAvaiableLocations } from '../customFunctions/customFunction';
+import { assignRootClassName, getPartOfAvaiableServices } from '../customFunctions/customFunction';
 import Header from '../Header/Header';
 import { Link } from 'react-router-dom';
 import { IService } from '../customInterfaces/customInterfaces';
@@ -19,7 +19,6 @@ import "../../styles/Home.scss";
 const Home = () => {
     const [rootClassName, setRootClassName] = useState<string>("");
     const [partOfAvaiableServices, setPartOfAvaiableServices] = useState<IService[]>([]);
-    const [avaiableLocations, setAvaiableLocations] = useState<string[]>([]);
 
     const [width] = useScreenSize();
 
@@ -31,12 +30,10 @@ const Home = () => {
     useEffect(() => {
         const getNameForRootClass: string = assignRootClassName(width, 'home');
         const getPartOfAvaiableServicesVariable: IService[] = getPartOfAvaiableServices();
-        const getAvaiableLocation: string[] = getAvaiableLocations();
         
 
         setRootClassName(getNameForRootClass);
         setPartOfAvaiableServices(getPartOfAvaiableServicesVariable);
-        setAvaiableLocations(getAvaiableLocation);
     }, [width]);
 
     return (
